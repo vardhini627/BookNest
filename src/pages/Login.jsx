@@ -19,7 +19,7 @@ export default function Login() {
       user.password === password
     ) {
       localStorage.setItem("booknest-logged-in", "true");
-      navigate("/dashboard");
+      navigate("/explore");
     } else {
       alert("Account not found or password is incorrect. Please sign up first.");
     }
